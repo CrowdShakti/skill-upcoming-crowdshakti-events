@@ -1,0 +1,36 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "crowdshakti",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetEventsIntent",
+          "samples": [
+            "upcoming events",
+            "next events",
+            "events",
+            "give me events",
+            "give me"
+          ],
+          "slots": []
+        }
+      ]
+    }
+  }
+}

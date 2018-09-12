@@ -1,0 +1,33 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Learn about upcoming events by CrowdShakti.",
+          "examplePhrases": [
+            "Alexa ask CrowdShakti about upcoming events",
+            "Alexa ask Crowdshakti about next events"
+          ],
+          "keywords": [
+            "events",
+            "crowdshakti"
+          ],
+          "name": "CrowdShakti",
+          "description": "Ask CrowdShakti for upcoming events, and learn about upcoming events organized by CrowdShakti.\n\nTo start, just say \"Alexa, ask CrowdShakti for upcoming Events\". \n\nAt anytime, you can stop by saying \"Alexa, stop\""
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "EVENT_FINDERS",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
